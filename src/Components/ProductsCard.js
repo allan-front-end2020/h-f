@@ -1,8 +1,11 @@
 import'./ProductsCard.css';
+import CartContext from '../context/cart/CartContext';
 
 
 
 const ProductCard = ({product}) =>{
+    const{addToCart =userCallback}
+   
     
     return (
     <div className="ProductCard_wrapper">
