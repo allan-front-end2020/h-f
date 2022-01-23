@@ -1,6 +1,7 @@
 import'./ProductsCard.css';
 
 
+
 const ProductCard = ({product}) =>{
     
     return (
@@ -10,9 +11,11 @@ const ProductCard = ({product}) =>{
             <h4>{product.name}</h4>
             <div className="ProductCard_price" >
               <h5>{product.price}</h5> 
+            
               <button className='ProductCard_button'>
                  Adicione a sacola
               </button>
+
             </div>
         </div>
 
